@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Navbar: React.FC = () => {
@@ -22,9 +21,17 @@ const Navbar: React.FC = () => {
             href="https://z.ai/subscribe?ic=CFZENLANF5" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-sm font-bold hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all text-white"
+            className="hidden sm:inline-block px-4 py-2 text-sm font-medium text-slate-300 hover:text-white transition-colors"
           >
             立即订阅 (z.ai)
+          </a>
+          <a 
+            href="https://bigmodel.cn/trialcenter/modeltrial/text?modelCode=glm-4.7" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full text-sm font-bold hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] transition-all text-white"
+          >
+            立即接入 (BigModel)
           </a>
         </div>
       </div>

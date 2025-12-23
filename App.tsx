@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -58,18 +57,22 @@ const App: React.FC = () => {
 
         <section id="trial" className="py-24 px-4 container mx-auto text-center">
             <h2 className="text-4xl font-bold mb-8">开启智能新篇章</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 <a href="https://bigmodel.cn/trialcenter/modeltrial/text?modelCode=glm-4.7" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 bg-blue-600 hover:bg-blue-500 rounded-3xl font-bold transition-all transform hover:scale-105 shadow-xl shadow-blue-500/20">
-                    <span className="text-lg mb-1 text-white">开放平台免费体验</span>
+                    <span className="text-lg mb-1 text-white">开放平台体验</span>
                     <span className="text-xs text-blue-100 opacity-70 font-normal">bigmodel.cn</span>
                 </a>
-                <a href="https://chat.z.ai/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 bg-white text-slate-900 hover:bg-slate-100 rounded-3xl font-bold transition-all transform hover:scale-105 shadow-xl">
-                    <span className="text-lg mb-1">极速 Web 对话</span>
-                    <span className="text-xs opacity-70 font-normal text-slate-500">chat.z.ai</span>
+                <a href="https://z.ai/subscribe?ic=CFZENLANF5" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 bg-gradient-to-br from-indigo-600 to-purple-700 hover:from-indigo-500 hover:to-purple-600 rounded-3xl font-bold transition-all transform hover:scale-105 shadow-xl shadow-purple-500/20">
+                    <span className="text-lg mb-1 text-white">立即订阅 (z.ai)</span>
+                    <span className="text-xs text-purple-100 opacity-70 font-normal">社区专属邀请链接</span>
                 </a>
                 <a href="https://chatglm.cn/main/alltoolsdetail?lang=zh" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 border border-slate-700 bg-slate-800/50 hover:bg-slate-800 rounded-3xl font-bold transition-all transform hover:scale-105">
                     <span className="text-lg mb-1 text-white">智谱清言全量版</span>
                     <span className="text-xs text-slate-400 font-normal">chatglm.cn</span>
+                </a>
+                <a href="https://www.bigmodel.cn/glm-coding?ic=1BXH9NTPWX" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center p-8 bg-white text-slate-900 hover:bg-slate-100 rounded-3xl font-bold transition-all transform hover:scale-105 shadow-xl">
+                    <span className="text-lg mb-1">Coding Plan</span>
+                    <span className="text-xs opacity-70 font-normal text-slate-500">开发者支持计划</span>
                 </a>
             </div>
         </section>

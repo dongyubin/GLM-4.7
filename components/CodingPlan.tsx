@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const CodingPlan: React.FC = () => {
@@ -17,22 +16,22 @@ const CodingPlan: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
             <a 
-              href="https://z.ai/subscribe?ic=CFZENLANF5" 
+              href="https://www.bigmodel.cn/glm-coding?ic=1BXH9NTPWX" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex flex-col p-5 bg-blue-600 rounded-2xl hover:bg-blue-500 transition-all group"
+              className="flex flex-col p-5 bg-blue-600 rounded-2xl hover:bg-blue-500 transition-all group shadow-lg shadow-blue-500/20"
             >
-              <span className="font-bold text-white mb-1">z.ai 订阅频道</span>
-              <span className="text-xs text-blue-100 opacity-80">极速获取最新模型能力与专属优惠</span>
+              <span className="font-bold text-white mb-1">立即加入 Coding Plan</span>
+              <span className="text-xs text-blue-100 opacity-80">获取专属 API 额度与技术扶持</span>
             </a>
             <a 
-              href="https://www.bigmodel.cn/glm-coding?ic=1BXH9NTPWX" 
+              href="https://bigmodel.cn/trialcenter/modeltrial/text?modelCode=glm-4.7" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex flex-col p-5 bg-slate-800 rounded-2xl hover:bg-slate-700 transition-all border border-white/5"
             >
-              <span className="font-bold text-white mb-1">官方 Coding Plan</span>
-              <span className="text-xs text-slate-400">智谱 AI 开发者扶持专区</span>
+              <span className="font-bold text-white mb-1">体验中心 (BigModel)</span>
+              <span className="text-xs text-slate-400">智谱 AI 官方模型试用专区</span>
             </a>
           </div>
           <ul className="space-y-4 text-slate-400 mb-4">
