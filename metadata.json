@@ -1,0 +1,8 @@
+{
+  "name": "GLM-4.7 Ultimate Landing Page",
+  "description": "A comprehensive, high-conversion landing page for GLM-4.7, featuring real-time AI chat, performance insights, and the GLM Coding Plan promotion.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
