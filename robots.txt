@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://glm47.vercel.app/sitemap.xml
+Sitemap: https://glm47.wwkejishe.top/sitemap.xml
